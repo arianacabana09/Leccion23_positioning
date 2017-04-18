@@ -11,20 +11,33 @@ body{
 .caja{
   width: 200px;
   height: 200px;
+  border-radius: 20px;
 }
 
 #rosa{
   background-color: rgb(255, 0, 107);
 }
+#rosa:hover{
+  background-color: rgba(255, 0, 107, 0.56);
+}
 
 #azul{
   background-color: rgb(36, 0, 255);
+}
+#azul:hover{
+  background-color: rgba(36, 0, 255, 0.46);
 }
 
 #verde{
   background-color: rgb(97, 185, 9);
 }
+#verde:hover{
+  background-color: rgba(121, 177, 64, 0.68);
+}
 
 #amarillo{
   background-color: rgb(255, 245, 0);
+}
+#amarillo:hover{
+  background-color: rgba(255, 245, 0, 0.66);
 }
